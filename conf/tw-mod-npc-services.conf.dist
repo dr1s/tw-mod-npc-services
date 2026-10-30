@@ -1,0 +1,135 @@
+[NpcServices]
+#
+# NpcServices.Enable
+# Description: Enables the NPC Services module.
+# Default: 1
+
+NpcServices.Enable = 1
+
+#
+# NpcServices.Announce
+# Description: Announces the module to players on login.
+# Default: 1
+
+NpcServices.Announce = 1
+
+#
+# NpcServices.RestoreHpMp.Enable
+# Description: Enables the "Restore HP and MP" service.
+# Default: 1
+
+NpcServices.RestoreHpMp.Enable = 1
+
+#
+# NpcServices.ResetInstances.Enable
+# Description: Enables the "Reset Instances" service.
+# Default: 1
+
+NpcServices.ResetInstances.Enable = 1
+
+#
+# NpcServices.ResetCooldowns.Enable
+# Description: Enables the "Reset Cooldowns" service.
+# Default: 1
+
+NpcServices.ResetCooldowns.Enable = 1
+
+#
+# NpcServices.LeaveCombat.Enable
+# Description: Enables the "Reset Combat" service.
+# Default: 1
+
+NpcServices.LeaveCombat.Enable = 1
+
+#
+# NpcServices.RemoveSickness.Enable
+# Description: Enables the "Remove Sickness" service.
+# Default: 1
+
+NpcServices.RemoveSickness.Enable = 1
+
+#
+# NpcServices.RepairItems.Enable
+# Description: Enables the "Repair Items" service.
+# Default: 1
+
+NpcServices.RepairItems.Enable = 1
+
+#
+# NpcServices.ResetTalents.Enable
+# Description: Enables the "Reset Talents" service.
+# Default: 1
+
+NpcServices.ResetTalents.Enable = 1
+
+#
+# NpcServices.OpenBank.Enable
+# Description: Enables the "Bank" service.
+# Default: 1
+
+NpcServices.OpenBank.Enable = 1
+
+#
+# NpcServices.Teleport.Dungeons.Enable
+# Description: Enables the "Dungeons" teleport submenu.
+#              The dungeon list is populated from `map_template` and `areatrigger_teleport`,
+#              so Tortoise custom dungeons are included automatically.
+# Default: 1
+
+NpcServices.Teleport.Dungeons.Enable = 1
+
+#
+# NpcServices.Teleport.Raids.Enable
+# Description: Enables the "Raids" teleport submenu.
+#              The raid list is populated from `map_template` and `areatrigger_teleport`,
+#              so Tortoise custom raids are included automatically.
+# Default: 1
+
+NpcServices.Teleport.Raids.Enable = 1
+
+#
+# NpcServices.Teleport.FactionCities.Enable
+# Description: Enables the "Faction Cities" teleport submenu.
+#              Only cities belonging to the player's faction are shown.
+# Default: 1
+
+NpcServices.Teleport.FactionCities.Enable = 1
+
+#
+# NpcServices.WorldBuffs.Enable
+# Description: Enables the "World Buffs" submenu.
+#              Allows players to receive classic world buffs.
+#              Faction-specific buffs are filtered by the player's faction.
+# Default: 1
+
+NpcServices.WorldBuffs.Enable = 1
+
+#
+# Individual world buff toggles.
+# Description: Enable or disable each world buff independently.
+#              These only take effect when NpcServices.WorldBuffs.Enable = 1.
+# Default: 1
+
+NpcServices.WorldBuffs.RallyingCryOfTheDragonslayer.Enable  = 1
+NpcServices.WorldBuffs.SpiritOfZandalar.Enable              = 1
+NpcServices.WorldBuffs.MoldarsMoxie.Enable                  = 1
+NpcServices.WorldBuffs.FengusFerocity.Enable                = 1
+NpcServices.WorldBuffs.SlipkiksSavvy.Enable                 = 1
+NpcServices.WorldBuffs.SongflowerSerenade.Enable            = 1
+NpcServices.WorldBuffs.SaygesDarkFortuneDamage.Enable       = 1
+NpcServices.WorldBuffs.SaygesDarkFortuneAgility.Enable      = 1
+NpcServices.WorldBuffs.SaygesDarkFortuneArmor.Enable        = 1
+NpcServices.WorldBuffs.SaygesDarkFortuneIntelligence.Enable = 1
+NpcServices.WorldBuffs.SaygesDarkFortuneResistance.Enable   = 1
+NpcServices.WorldBuffs.SaygesDarkFortuneSpirit.Enable       = 1
+NpcServices.WorldBuffs.SaygesDarkFortuneStamina.Enable      = 1
+NpcServices.WorldBuffs.SaygesDarkFortuneStrength.Enable     = 1
+NpcServices.WorldBuffs.WarchiefsBlessing.Enable             = 1
+
+#
+# NpcServices.VisualSpell
+# Description: Spell ID cast as a visual effect after using a service.
+#              Set to 0 to disable the visual entirely.
+# Default: 26636
+
+NpcServices.VisualSpell = 26636
